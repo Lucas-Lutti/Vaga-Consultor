@@ -12,7 +12,7 @@ Este projeto é uma aplicação Android que oferece dois módulos principais: Of
 - Acesso aos detalhes de cada oficina, incluindo descrição, localização e informações de contato.
 
 ### Módulo de Indicações
-- Permite ao usuário enviar indicações, compartilhando informações de oficinas com amigos.
+- Permite ao usuário enviar indicações de pessoas.
 
 ## Tecnologias Utilizadas
 - Android Studio

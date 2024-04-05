@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="App Vaga Consultor"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light"
+        tools:targetApi="31">
+
+        <!-- MainActivity (Remove o intent-filter daqui) -->
+        <activity
+            android:name=".principal.MainActivity"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" />
+
+        <!-- DetalhesOficinaActivity -->
+        <activity
+            android:name=".oficinas.DetalhesOficinaActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- LoginActivity (Adicione o intent-filter aqui) -->
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- RegisterActivity -->
+        <activity
+            android:name=".login.RegisterActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

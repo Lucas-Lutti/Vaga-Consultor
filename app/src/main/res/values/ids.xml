@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="label_nome_oficina" type="id" />
+    <item name="label_descricao_curta" type="id" />
+    <item name="label_endereco" type="id" />
+    <item name="label_telefone" type="id" />
+    <item name="label_email" type="id" />
+</resources>

@@ -15,6 +15,7 @@ Este projeto é uma aplicação Android que oferece dois módulos principais: Of
 - Permite ao usuário enviar indicações de pessoas.
 
 ## Tecnologias Utilizadas
+- Java
 - Android Studio
 - Retrofit para comunicação com a API
 - Gson para manipulação de JSON
